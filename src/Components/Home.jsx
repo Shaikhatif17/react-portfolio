@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Home.scss";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import {BsArrowUpRight} from 'react-icons/bs';
+import {BsArrowUpRight, BsChevronDown} from 'react-icons/bs';
 import me from '../Assets/logo.png';
 
 
@@ -81,6 +81,7 @@ const Home = () => {
       <section>
         <img src={me} alt="shaikh atif" />
       </section>
+      <BsChevronDown/>
     </div>
   );
 };
